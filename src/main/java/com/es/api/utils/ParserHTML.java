@@ -29,7 +29,9 @@ public class ParserHTML {
                     element.getElementsByClass("p-name").eq(0).text(),
                     element.getElementsByClass("p-price").eq(0).text(),
 //                    element.getElementsByTag("img").eq(0).attr("source-data-lazy-img")
-                    element.getElementsByTag("img").eq(0).attr("src")
+                    element.getElementsByTag("img").eq(0).attr("src"),
+                    element.getElementsByClass("p-shop").eq(0).text(),
+                    element.getElementsByClass("p-icons").eq(0).text()
             ));
         }
         return result;
