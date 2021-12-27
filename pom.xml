@@ -21,7 +21,7 @@
         <jsoup.version>1.14.2</jsoup.version>
         <jjwt-version>0.9.0</jjwt-version>
         <jwt-version>3.3.0</jwt-version>
-        <shiro-version>1.4.0</shiro-version>
+        <shiro-version>1.7.0</shiro-version>
     </properties>
 
     <dependencies>
